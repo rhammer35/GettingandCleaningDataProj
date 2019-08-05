@@ -29,4 +29,16 @@ train_subject_data <- mutate(train_subject_data, activitynum = train_subject_lab
 ## This is the first requirement for the project
 merged_data <- bind_rows(test_subject_data, train_subject_data)
 
+## Subset merged data to only measuresments on the standard deviation and the
+## mean of each measurement
+features$V2 <- as.character(features(V2))
+meanstd_cols <- c(grep("mean", features$V2), grep("std", features$V2))
+merged_data_subset <- merged_data[, c(562, 563, meanstd_cols)]
+
+## Label the activities with descriptive names
+activityname <- factor(merged_data_subset$activitynum, labels = activities$V2)
+merged_data_subset <- mutate(merged_data_subset, activityname = activityname)
+merged_data_subset <- merged_data_subset[, c(1:2, 82, 3:81)]
+
+
 
