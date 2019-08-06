@@ -40,5 +40,20 @@ activityname <- factor(merged_data_subset$activitynum, labels = activities$V2)
 merged_data_subset <- mutate(merged_data_subset, activityname = activityname)
 merged_data_subset <- merged_data_subset[, c(1:2, 82, 3:81)]
 
+## Label the data variables with more descriptive names
+varnames <- features[meanstd_cols, 2]
+varnames <- gsub("-", "", varnames)
+varnames <- gsub("\\()", "_", varnames)
+varnames <- gsub("^t", "Time", varnames)
+varnames <- gsub("^f", "Freq", varnames)
+varnames <- gsub("_$", "", varnames)
+colnames(merged_data_subset)[4:82] <- varnames
+
+## Use merged and labeled data to create new data set containing average of
+## each variable for each activity and each subject
+merged_data_subset$subjectid <- factor(merged_data_subset$subjectid)
+tidydata <- group_by(merged_data_subset, subjectid, activityname) %>% 
+            summarize_all(mean) %>% as.data.frame
+tidydata <- tidydata[, c(1:2, 4:82)]    ## Remove activity number variable
 
 
