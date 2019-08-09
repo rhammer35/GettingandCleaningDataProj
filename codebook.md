@@ -130,11 +130,11 @@ containing the subject id numbers and the activity names.
 *TimeGravityAccstd\_Z 
 *TimeBodyAccJerkstd\_X 
 *TimeBodyAccJerkstd\_Y
-TimeBodyAccJerkstd\_Z 
-TimeBodyGyrostd\_X 
-TimeBodyGyrostd\_Y
-TimeBodyGyrostd\_Z 
-TimeBodyGyroJerkstd\_X 
+*TimeBodyAccJerkstd\_Z 
+*TimeBodyGyrostd\_X 
+*TimeBodyGyrostd\_Y
+*TimeBodyGyrostd\_Z 
+TimeBodyGyroJerkstd_X 
 TimeBodyGyroJerkstd\_Y
 TimeBodyGyroJerkstd\_Z 
 TimeBodyAccMagstd 
