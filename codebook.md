@@ -76,7 +76,7 @@ of the six subjects, there is a variable respresenting the mean for the
 set of original variables listed below. There are also variables
 containing the subject id numbers and the activity names.
 
-*TimeBodyAccmean\_X 
+*TimeBodyAccmean_X 
 *TimeBodyAccmean\_Y 
 *TimeBodyAccmean\_Z
 *TimeGravityAccmean\_X 
