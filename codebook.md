@@ -76,82 +76,82 @@ of the six subjects, there is a variable respresenting the mean for the
 set of original variables listed below. There are also variables
 containing the subject id numbers and the activity names.
 
-*TimeBodyAccmean_X 
-*TimeBodyAccmean_Y 
-*TimeBodyAccmean_Z
-*TimeGravityAccmean_X 
-*TimeGravityAccmean_Y 
-*TimeGravityAccmean_Z
-*TimeBodyAccJerkmean_X 
-*TimeBodyAccJerkmean_Y 
-*TimeBodyAccJerkmean_Z
-*TimeBodyGyromean_X 
-*TimeBodyGyromean_Y 
-*TimeBodyGyromean_Z
-*TimeBodyGyroJerkmean_X 
-*TimeBodyGyroJerkmean_Y 
-*TimeBodyGyroJerkmean_Z
-*TimeBodyAccMagmean 
-*TimeGravityAccMagmean 
-*TimeBodyAccJerkMagmean
-*TimeBodyGyroMagmean 
-*TimeBodyGyroJerkMagmean 
-*FreqBodyAccmean_X
-*FreqBodyAccmean_Y 
-*FreqBodyAccmean_Z 
-*FreqBodyAccmeanFreq_X
-*FreqBodyAccmeanFreq_Y 
-*FreqBodyAccmeanFreq_Z 
-*FreqBodyAccJerkmean_X
-*FreqBodyAccJerkmean_Y 
-*FreqBodyAccJerkmean_Z 
-*FreqBodyAccJerkmeanFreq_X
-*FreqBodyAccJerkmeanFreq_Y 
-*FreqBodyAccJerkmeanFreq_Z
-*FreqBodyGyromean_X 
-*FreqBodyGyromean_Y 
-*FreqBodyGyromean_Z
-*FreqBodyGyromeanFreq_X 
-*FreqBodyGyromeanFreq_Y 
-*FreqBodyGyromeanFreq_Z
-*FreqBodyAccMagmean 
-*FreqBodyAccMagmeanFreq 
-*FreqBodyBodyAccJerkMagmean
-*FreqBodyBodyAccJerkMagmeanFreq 
-*FreqBodyBodyGyroMagmean
-*FreqBodyBodyGyroMagmeanFreq 
-*FreqBodyBodyGyroJerkMagmean
-*FreqBodyBodyGyroJerkMagmeanFreq 
-*TimeBodyAccstd_X 
-*TimeBodyAccstd_Y
-*TimeBodyAccstd_Z 
-*TimeGravityAccstd_X 
-*TimeGravityAccstd_Y
-*TimeGravityAccstd_Z 
-*TimeBodyAccJerkstd_X 
-*TimeBodyAccJerkstd_Y
-*TimeBodyAccJerkstd_Z 
-*TimeBodyGyrostd_X 
-*TimeBodyGyrostd_Y
-*TimeBodyGyrostd_Z 
-*TimeBodyGyroJerkstd_X 
-*TimeBodyGyroJerkstd_Y
-*TimeBodyGyroJerkstd_Z 
-*TimeBodyAccMagstd 
-*TimeGravityAccMagstd
-*TimeBodyAccJerkMagstd 
-*TimeBodyGyroMagstd 
-*TimeBodyGyroJerkMagstd
-*FreqBodyAccstd_X 
-*FreqBodyAccstd_Y 
-*FreqBodyAccstd_Z
-*FreqBodyAccJerkstd_X 
-*FreqBodyAccJerkstd_Y 
-*FreqBodyAccJerkstd_Z
-*FreqBodyGyrostd_X 
-*FreqBodyGyrostd_Y 
-*FreqBodyGyrostd_Z
-*FreqBodyAccMagstd 
-*FreqBodyBodyAccJerkMagstd 
-*FreqBodyBodyGyroMagstd
-*FreqBodyBodyGyroJerkMagstd
+* TimeBodyAccmean_X 
+* TimeBodyAccmean_Y 
+* TimeBodyAccmean_Z
+* TimeGravityAccmean_X 
+* TimeGravityAccmean_Y 
+* TimeGravityAccmean_Z
+* TimeBodyAccJerkmean_X 
+* TimeBodyAccJerkmean_Y 
+* TimeBodyAccJerkmean_Z
+* TimeBodyGyromean_X 
+* TimeBodyGyromean_Y 
+* TimeBodyGyromean_Z
+* TimeBodyGyroJerkmean_X 
+* TimeBodyGyroJerkmean_Y 
+* TimeBodyGyroJerkmean_Z
+* TimeBodyAccMagmean 
+* TimeGravityAccMagmean 
+* TimeBodyAccJerkMagmean
+* TimeBodyGyroMagmean 
+* TimeBodyGyroJerkMagmean 
+* FreqBodyAccmean_X
+* FreqBodyAccmean_Y 
+* FreqBodyAccmean_Z 
+* FreqBodyAccmeanFreq_X
+* FreqBodyAccmeanFreq_Y 
+* FreqBodyAccmeanFreq_Z 
+* FreqBodyAccJerkmean_X
+* FreqBodyAccJerkmean_Y 
+* FreqBodyAccJerkmean_Z 
+* FreqBodyAccJerkmeanFreq_X
+* FreqBodyAccJerkmeanFreq_Y 
+* FreqBodyAccJerkmeanFreq_Z
+* FreqBodyGyromean_X 
+* FreqBodyGyromean_Y 
+* FreqBodyGyromean_Z
+* FreqBodyGyromeanFreq_X 
+* FreqBodyGyromeanFreq_Y 
+* FreqBodyGyromeanFreq_Z
+* FreqBodyAccMagmean 
+* FreqBodyAccMagmeanFreq 
+* FreqBodyBodyAccJerkMagmean
+* FreqBodyBodyAccJerkMagmeanFreq 
+* FreqBodyBodyGyroMagmean
+* FreqBodyBodyGyroMagmeanFreq 
+* FreqBodyBodyGyroJerkMagmean
+* FreqBodyBodyGyroJerkMagmeanFreq 
+* TimeBodyAccstd_X 
+* TimeBodyAccstd_Y
+* TimeBodyAccstd_Z 
+* TimeGravityAccstd_X 
+* TimeGravityAccstd_Y
+* TimeGravityAccstd_Z 
+* TimeBodyAccJerkstd_X 
+* TimeBodyAccJerkstd_Y
+* TimeBodyAccJerkstd_Z 
+* TimeBodyGyrostd_X 
+* TimeBodyGyrostd_Y
+* TimeBodyGyrostd_Z 
+* TimeBodyGyroJerkstd_X 
+* TimeBodyGyroJerkstd_Y
+* TimeBodyGyroJerkstd_Z 
+* TimeBodyAccMagstd 
+* TimeGravityAccMagstd
+* TimeBodyAccJerkMagstd 
+* TimeBodyGyroMagstd 
+* TimeBodyGyroJerkMagstd
+* FreqBodyAccstd_X 
+* FreqBodyAccstd_Y 
+* FreqBodyAccstd_Z
+* FreqBodyAccJerkstd_X 
+* FreqBodyAccJerkstd_Y 
+* FreqBodyAccJerkstd_Z
+* FreqBodyGyrostd_X 
+* FreqBodyGyrostd_Y 
+* FreqBodyGyrostd_Z
+* FreqBodyAccMagstd 
+* FreqBodyBodyAccJerkMagstd 
+* FreqBodyBodyGyroMagstd
+* FreqBodyBodyGyroJerkMagstd
